@@ -5,7 +5,7 @@ public class LinkedChainStack<E> implements StackInterface<E> {
    private Node<E> topNode;
    
    public void push(E newElement) {
-   
+      
    }
    
    public E pop() {
@@ -27,7 +27,7 @@ public class LinkedChainStack<E> implements StackInterface<E> {
    
    private class Node 
 	{
-	  private E    data;
+	  private E data;
 	  private Node next;
 
 		private Node(E dataPortion)
